@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "m-02-09"
+version = "0.1.0"
+description = ""
+authors = ["Andrew <sideroalogo8@gmail.com>"]
+readme = "README.md"
+packages = [{include = "m_02_09"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+scrapy = "^2.10.1"
+mongoengine = "^0.27.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
